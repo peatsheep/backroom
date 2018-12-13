@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS items.attire (
+CREATE TABLE IF NOT EXISTS attire (
   id INTEGER PRIMARY KEY,
   item_name TEXT,
   phys_def INTEGER,
