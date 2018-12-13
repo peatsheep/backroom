@@ -6,10 +6,6 @@ __pycache__/
 # VS Code
 .vscode/
 
-
-# Postgres
-data/
-
 # C extensions
 *.so
 

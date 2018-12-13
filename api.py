@@ -1,13 +1,7 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
 import service
 
 app = Flask(__name__)
-CORS(app)
-
-@app.route("/")
-def hello_world():
-  return "Hello, world!"
 
 @app.route("/weapons")
 def get_weapons():
