@@ -17,9 +17,9 @@ def dict_factory(cursor, row):
     return d
 
 def get_weapons():
-  pass
+  return []
 
-def get_armor():
+def get_attire():
   cur = get_db().cursor()
-  cur.execute('SELECT * FROM attire;')
+  cur.execute('SELECT * FROM attire')
   return cur.fetchall()

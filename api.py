@@ -7,6 +7,6 @@ app = Flask(__name__)
 def get_weapons():
   return jsonify(service.get_weapons())
 
-@app.route("/armor")
-def get_armor():
-  return jsonify(service.get_armor())
+@app.route("/attire")
+def get_attire():
+  return jsonify(service.get_attire())
