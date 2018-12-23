@@ -1,2 +1,2 @@
-include supply-closet/schema.sql
+include backroom/schema.sql
 global-exclude *.pyc
